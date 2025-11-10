@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@layer base {
+  :root {
+    --color-cyan-blue: #06B6D4;
+    --color-royal-blue: #2563EB;
+    --color-deep-navy: #0F172A;
+    --color-silver-gray: #CBD5E1;
+    --color-white: #FFFFFF;
+  }
+}
+
+@layer utilities {
+  .bg-cyan-blue { background-color: var(--color-cyan-blue); }
+  .bg-royal-blue { background-color: var(--color-royal-blue); }
+  .bg-deep-navy { background-color: var(--color-deep-navy); }
+  .bg-silver-gray { background-color: var(--color-silver-gray); }
+  .bg-white { background-color: var(--color-white); }
+
+  .text-cyan-blue { color: var(--color-cyan-blue); }
+  .text-royal-blue { color: var(--color-royal-blue); }
+  .text-deep-navy { color: var(--color-deep-navy); }
+  .text-silver-gray { color: var(--color-silver-gray); }
+  .text-white { color: var(--color-white); }
+}
